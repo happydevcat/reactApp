@@ -2,4 +2,5 @@
 Getting Started React App
 
 
-안녕하세요. 2024/10/08 설정 github Connect
+2024/10/08 설정 github Connect
+두번째 개발환경 Path 설정
