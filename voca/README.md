@@ -1,70 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React JS 기본강의 (코딩앙마)
+ https://www.youtube.com/watch?v=05uFo_-SGXU&list=PLZKTXPmaJk8J_fHAzPLH8CJ_HO_M33e7-
+ 
+0. 개발환경
+  - nodejs : nodejs.org/ko  22.12.0 LTS
+  - code.visualstudi
+  - https://github.com/coding-angma/voca
+  
+  - nodejs 설치확인
+		npm --version
+		npx --version
+  - react 설치 :: npx create-react-app {project Name ----xxxx}
+  
+	  Error 발생. -- @testing-library/react 호환이 해결이 안된 모양입니다.
+	  https://rominlamp.tistory.com/36
+	  npm install react@18 react-dom@18 @testing-library/jest-dom@5.17.0 @testing-library/react@13.4.0 @testing-library/user-event@13.5.0 web-vitals
+  - react router-dom 설치 :: npm install react-router-dom   
+  
+  
+1.  react-router-dom 버전 6 업그레이드가 되면서 Switch를 더이상 지원하지 않음. 
+	Switch > Routes 변경
+	Router > Route 
+	
+	  <Routes>
+        <Route exact path="/" element={<DayList />}></Route>
+        <Route path="/day/:day" element={<Day />}></Route>
+        <Route path="*" element = {<EmptyPage />}></Route>
+      </Routes>
+	
+2. Json Server 생성 
+	npm install -g json-server
+	json-server --watch ./src/db/data.json --port 3001
+	
+	REST API URI 
+		- Create : POST
+		- Read : GET
+		- Update : PUT
+		- Delete : DELETE
+		
+3. React Router V6에서는 useHistory가 더이상 사용되지 않음. 		
+   AS-IS
+	import { useHistory } from "react-router-dom";
 
-## Available Scripts
+	function MyComponent() {
+	  const history = useHistory();
+	  const goToDay = () => {
+		history.push('/day'); // '/day' 경로로 이동
+	  };
+	  return <button onClick={goToDay}>Go to Day</button>;
+	}
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  TO_BE
+  import { useNavigate } from "react-router-dom";
+  
+  function MyComponent() {
+	const navigate = useNavigate();
+	const goToDay = () => {
+		navigate('/day'); // '/day' 경로로 이동
+  };
+  
+4. TypeScript 설치 
+	npm install typescript @types/node @types/react @types/react-dom @types/jest @types/react-router-dom
+	
+	변경 js >> tsx 
