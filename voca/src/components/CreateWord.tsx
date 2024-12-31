@@ -24,8 +24,8 @@ export default function CreateWord(){
 
                 
             const setDay = dayRef.current.value;
-            const eng = korRef.current.value;
-            const kor = engRef.current.value
+            const eng = engRef.current.value;
+            const kor = korRef.current.value
 
 
 

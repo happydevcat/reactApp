@@ -31,6 +31,10 @@
     {
       "id": "5bce",
       "day": 8
+    },
+    {
+      "id": "8528",
+      "day": 9
     }
   ],
   "words": [
@@ -123,6 +127,13 @@
       "day": "7",
       "eng": "jolly",
       "kor": "줄리",
+      "isDone": false
+    },
+    {
+      "id": "c913",
+      "setDay": "1",
+      "eng": "dog",
+      "kor": "개",
       "isDone": false
     }
   ]
