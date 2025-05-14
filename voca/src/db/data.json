@@ -135,6 +135,13 @@
       "eng": "dog",
       "kor": "개",
       "isDone": false
+    },
+    {
+      "id": "e086",
+      "setDay": "3",
+      "eng": "handcream",
+      "kor": "핸드크림",
+      "isDone": true
     }
   ]
 }
