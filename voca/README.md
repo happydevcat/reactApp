@@ -63,3 +63,13 @@ React JS 기본강의 (코딩앙마)
 	npm install typescript @types/node @types/react @types/react-dom @types/jest @types/react-router-dom
 	
 	변경 js >> tsx 
+
+
+
+5. 다른 환경에서 설치 진행. 
+	1 Case 이 옵션은 peerDependencies 충돌을 무시하고 설치를 진행합니다
+	npm install --legacy-peer-deps
+	2. 기존 설치 제거
+	rm -rf node_modules package-lock.json
+	npm install
+	
