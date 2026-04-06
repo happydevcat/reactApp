@@ -6,11 +6,11 @@ interface Iprops {
 }
 
 export interface Iword {
-    day: string,
+    day: number,
     eng: string,
     kor: string,
     isDone: boolean,
-    id: number,
+    id: string,
 }
 
 export default function Word({word: propsWord}: Iprops){

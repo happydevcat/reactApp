@@ -12,7 +12,7 @@ export default function CreateWord(){
 
     const [isLoading, setIsLoading] = useState(false);
 
-    function onSubmit(e){
+    async function onSubmit(e){
         e.preventDefault();
 
         // console.log(engRef.current.value);
@@ -26,14 +26,26 @@ export default function CreateWord(){
             const setDay = dayRef.current.value;
             const eng = engRef.current.value;
             const kor = korRef.current.value
+            const day = Number(dayRef.current.value);
 
+            // 1️⃣ 전체 데이터 조회
+              const res = await fetch("http://localhost:3001/words");
+              const words = await res.json();
+
+              // 2️⃣ max id 찾기 (문자열 → 숫자 변환)
+              const maxId = words.reduce((max, w) => {
+                  return Math.max(max, Number(w.id));
+              }, 0);
+
+              const newId = maxId + 1;
 
 
             fetch(`http://localhost:3001/words/`,{
                 method: "POST",
                 headers: { "Content-type": "application/json"},
                 body: JSON.stringify({
-                    setDay,
+                    id: String(newId),
+                    day,
                     eng,
                     kor,
                     isDone: false,

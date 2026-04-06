@@ -35,6 +35,18 @@
     {
       "id": "8528",
       "day": 9
+    },
+    {
+      "id": "bbc0",
+      "day": 10
+    },
+    {
+      "id": "e708",
+      "day": 11
+    },
+    {
+      "id": "ddc4",
+      "day": 12
     }
   ],
   "words": [
@@ -43,7 +55,7 @@
       "day": 1,
       "eng": "book",
       "kor": "책",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "5",
@@ -60,80 +72,101 @@
       "isDone": true
     },
     {
-      "day": "3",
+      "day": 3,
       "eng": "house",
       "kor": "집",
       "isDone": true,
       "id": "8"
     },
     {
-      "day": "2",
+      "day": 2,
       "eng": "mouse",
       "kor": "쥐",
       "isDone": false,
       "id": "9"
     },
     {
-      "day": "4",
+      "day": 4,
       "eng": "monkey",
       "kor": "원숭이",
       "isDone": false,
       "id": "10"
     },
     {
-      "day": "4",
+      "day": 4,
       "eng": "apple",
       "kor": "사과",
       "isDone": false,
       "id": "11"
     },
     {
-      "day": "3",
+      "day": 3,
       "eng": "apple",
       "kor": "사과",
       "isDone": false,
       "id": "12"
     },
     {
-      "id": "d05b",
-      "day": "4",
+      "id": "44",
+      "day": 4,
       "eng": "window",
       "kor": "창문",
       "isDone": false
     },
     {
-      "id": "3cb2",
-      "day": "1",
+      "id": "45",
+      "day": 1,
       "eng": "cat",
       "kor": "고양이",
       "isDone": false
     },
     {
-      "id": "1887",
-      "day": "6",
+      "id": "47",
+      "day": 6,
       "eng": "dog",
       "kor": "개",
       "isDone": false
     },
     {
-      "id": "e9b2",
-      "day": "3",
+      "id": "48",
+      "day": 3,
       "eng": "computer",
       "kor": "컴퓨터",
       "isDone": false
     },
     {
-      "id": "9ab9",
-      "day": "7",
+      "id": "49",
+      "day": 7,
       "eng": "jolly",
       "kor": "줄리",
       "isDone": false
     },
     {
-      "id": "c913",
-      "setDay": "1",
-      "eng": "dog",
-      "kor": "개",
+      "id": "22",
+      "day": 8,
+      "eng": "react",
+      "kor": "리엑트",
+      "isDone": false
+    },
+    {
+      "id": "88",
+      "day": 12,
+      "eng": "visual studio",
+      "kor": "VS 코드",
+      "isDone": false
+    },
+    {
+      "id": "41",
+      "day": 8,
+      "eng": "VS code",
+      "kor": "vs 코드",
+      "isDone": false
+    },
+    {
+      "id": "89",
+      "day": 8,
+      "eng": "computer",
+      "kor": "컴퓨터",
       "isDone": false
     }
   ]
