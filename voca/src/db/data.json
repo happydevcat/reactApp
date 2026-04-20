@@ -175,6 +175,13 @@
       "eng": "handcream",
       "kor": "핸드크림",
       "isDone": true
+    },
+    {
+      "id": "NaN",
+      "day": 12,
+      "eng": "kukuri",
+      "kor": "쿠쿠리",
+      "isDone": false
     }
   ]
 }
