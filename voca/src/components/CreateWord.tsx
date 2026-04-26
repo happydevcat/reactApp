@@ -26,7 +26,7 @@ export default function CreateWord(){
             const setDay = dayRef.current.value;
             const eng = engRef.current.value;
             const kor = korRef.current.value
-            const day = Number(dayRef.current.value);
+            const day = Number(setDay);
 
             // 1️⃣ 전체 데이터 조회
               const res = await fetch("http://localhost:3001/words");
@@ -38,13 +38,13 @@ export default function CreateWord(){
               }, 0);
 
               const newId = maxId + 1;
-
+              console.log("=====> {%n}",newId);
 
             fetch(`http://localhost:3001/words/`,{
                 method: "POST",
                 headers: { "Content-type": "application/json"},
                 body: JSON.stringify({
-                    id: String(newId),
+                    id: newId,
                     day,
                     eng,
                     kor,

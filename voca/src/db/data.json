@@ -1,186 +1,200 @@
 {
   "days": [
     {
-      "id": "1",
+      "id": 1,
       "day": 1
     },
     {
-      "id": "2",
+      "id": 2,
       "day": 2
     },
     {
-      "id": "3",
+      "id": 3,
       "day": 3
     },
     {
-      "day": 4,
-      "id": "4"
+      "id": 4,
+      "day": 4
     },
     {
-      "id": "fe01",
+      "id": 5,
       "day": 5
     },
     {
-      "id": "860d",
+      "id": 6,
       "day": 6
     },
     {
-      "id": "3521",
+      "id": 7,
       "day": 7
     },
     {
-      "id": "5bce",
+      "id": 8,
       "day": 8
     },
     {
-      "id": "8528",
+      "id": 9,
       "day": 9
     },
     {
-      "id": "bbc0",
+      "id": 10,
       "day": 10
     },
     {
-      "id": "e708",
+      "id": 11,
       "day": 11
     },
     {
-      "id": "ddc4",
+      "id": 12,
       "day": 12
     }
   ],
   "words": [
     {
-      "id": "1",
+      "id": 100,
       "day": 1,
       "eng": "book",
       "kor": "책",
       "isDone": false
     },
     {
-      "id": "5",
+      "id": 101,
       "day": 3,
       "eng": "school",
       "kor": "학교",
       "isDone": false
     },
     {
-      "id": "6",
+      "id": 102,
       "day": 3,
       "eng": "pencil",
       "kor": "연필",
       "isDone": true
     },
     {
+      "id": 103,
       "day": 3,
       "eng": "house",
       "kor": "집",
-      "isDone": true,
-      "id": "8"
+      "isDone": true
     },
     {
+      "id": 104,
       "day": 2,
       "eng": "mouse",
       "kor": "쥐",
-      "isDone": false,
-      "id": "9"
+      "isDone": false
     },
     {
+      "id": 105,
       "day": 4,
       "eng": "monkey",
       "kor": "원숭이",
-      "isDone": false,
-      "id": "10"
+      "isDone": false
     },
     {
+      "id": 106,
       "day": 4,
       "eng": "apple",
       "kor": "사과",
-      "isDone": false,
-      "id": "11"
+      "isDone": false
     },
     {
+      "id": 107,
       "day": 3,
       "eng": "apple",
       "kor": "사과",
-      "isDone": false,
-      "id": "12"
+      "isDone": false
     },
     {
-      "id": "44",
+      "id": 108,
       "day": 4,
       "eng": "window",
       "kor": "창문",
       "isDone": false
     },
     {
-      "id": "45",
+      "id": 109,
       "day": 1,
       "eng": "cat",
       "kor": "고양이",
-      "isDone": false
+      "isDone": true
     },
     {
-      "id": "47",
+      "id": 110,
       "day": 6,
       "eng": "dog",
       "kor": "개",
       "isDone": false
     },
     {
-      "id": "48",
+      "id": 111,
       "day": 3,
       "eng": "computer",
       "kor": "컴퓨터",
       "isDone": false
     },
     {
-      "id": "49",
+      "id": 112,
       "day": 7,
       "eng": "jolly",
       "kor": "줄리",
       "isDone": false
     },
     {
-      "id": "22",
+      "id": 113,
       "day": 8,
       "eng": "react",
       "kor": "리엑트",
       "isDone": false
     },
     {
-      "id": "88",
+      "id": 114,
       "day": 12,
       "eng": "visual studio",
       "kor": "VS 코드",
       "isDone": false
     },
     {
-      "id": "41",
+      "id": 115,
       "day": 8,
       "eng": "VS code",
       "kor": "vs 코드",
       "isDone": false
     },
     {
-      "id": "89",
+      "id": 116,
       "day": 8,
       "eng": "computer",
       "kor": "컴퓨터",
       "isDone": false
     },
     {
-      "id": "e086",
-      "setDay": "3",
+      "id": 117,
+      "day": 3,
       "eng": "handcream",
       "kor": "핸드크림",
       "isDone": true
     },
     {
-      "id": "NaN",
-      "day": 12,
-      "eng": "kukuri",
-      "kor": "쿠쿠리",
+      "id": 118,
+      "day": 7,
+      "eng": "cat",
+      "kor": "고양이",
+      "isDone": false
+    },
+    {
+      "id": 119,
+      "day": 7,
+      "eng": "cat",
+      "kor": "고양이",
+      "isDone": false
+    },
+    {
+      "id": 120,
+      "day": 2,
+      "eng": "browser",
+      "kor": "브라우져",
       "isDone": false
     }
   ]
