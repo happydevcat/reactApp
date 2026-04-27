@@ -10,7 +10,7 @@ export interface Iword {
     eng: string,
     kor: string,
     isDone: boolean,
-    id: number,
+    id: string,
 }
 
 export default function Word({word: propsWord}: Iprops){
@@ -46,7 +46,7 @@ export default function Word({word: propsWord}: Iprops){
                 if(res.ok){
                     setWord({
                         ...word,
-                        id: 0
+                        id: "0"
                     });
                 }
             });  
@@ -55,7 +55,7 @@ export default function Word({word: propsWord}: Iprops){
     }
 
 
-    if(word.id === 0 ){
+    if(word.id === "0" ){
         return null;
     }
 

@@ -1,200 +1,256 @@
 {
   "days": [
     {
-      "id": 1,
+      "id": "1",
       "day": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "day": 2
     },
     {
-      "id": 3,
+      "id": "3",
       "day": 3
     },
     {
-      "id": 4,
+      "id": "4",
       "day": 4
     },
     {
-      "id": 5,
+      "id": "5",
       "day": 5
     },
     {
-      "id": 6,
+      "id": "6",
       "day": 6
     },
     {
-      "id": 7,
+      "id": "7",
       "day": 7
     },
     {
-      "id": 8,
+      "id": "8",
       "day": 8
     },
     {
-      "id": 9,
+      "id": "9",
       "day": 9
     },
     {
-      "id": 10,
+      "id": "10",
       "day": 10
     },
     {
-      "id": 11,
+      "id": "11",
       "day": 11
     },
     {
-      "id": 12,
+      "id": "12",
       "day": 12
     }
   ],
   "words": [
     {
-      "id": 100,
+      "id": "100",
       "day": 1,
       "eng": "book",
       "kor": "책",
       "isDone": false
     },
     {
-      "id": 101,
+      "id": "101",
       "day": 3,
       "eng": "school",
       "kor": "학교",
       "isDone": false
     },
     {
-      "id": 102,
+      "id": "102",
       "day": 3,
       "eng": "pencil",
       "kor": "연필",
       "isDone": true
     },
     {
-      "id": 103,
+      "id": "103",
       "day": 3,
       "eng": "house",
       "kor": "집",
       "isDone": true
     },
     {
-      "id": 104,
+      "id": "104",
       "day": 2,
       "eng": "mouse",
       "kor": "쥐",
       "isDone": false
     },
     {
-      "id": 105,
+      "id": "105",
       "day": 4,
       "eng": "monkey",
       "kor": "원숭이",
-      "isDone": false
+      "isDone": true
     },
     {
-      "id": 106,
+      "id": "106",
       "day": 4,
       "eng": "apple",
       "kor": "사과",
       "isDone": false
     },
     {
-      "id": 107,
+      "id": "107",
       "day": 3,
       "eng": "apple",
       "kor": "사과",
       "isDone": false
     },
     {
-      "id": 108,
-      "day": 4,
-      "eng": "window",
-      "kor": "창문",
-      "isDone": false
-    },
-    {
-      "id": 109,
+      "id": "109",
       "day": 1,
       "eng": "cat",
       "kor": "고양이",
-      "isDone": true
+      "isDone": false
     },
     {
-      "id": 110,
+      "id": "110",
       "day": 6,
       "eng": "dog",
       "kor": "개",
       "isDone": false
     },
     {
-      "id": 111,
+      "id": "111",
       "day": 3,
       "eng": "computer",
       "kor": "컴퓨터",
       "isDone": false
     },
     {
-      "id": 112,
+      "id": "112",
       "day": 7,
       "eng": "jolly",
       "kor": "줄리",
       "isDone": false
     },
     {
-      "id": 113,
+      "id": "113",
       "day": 8,
       "eng": "react",
       "kor": "리엑트",
       "isDone": false
     },
     {
-      "id": 114,
+      "id": "114",
       "day": 12,
       "eng": "visual studio",
       "kor": "VS 코드",
       "isDone": false
     },
     {
-      "id": 115,
+      "id": "115",
       "day": 8,
       "eng": "VS code",
       "kor": "vs 코드",
       "isDone": false
     },
     {
-      "id": 116,
+      "id": "116",
       "day": 8,
       "eng": "computer",
       "kor": "컴퓨터",
       "isDone": false
     },
     {
-      "id": 117,
+      "id": "117",
       "day": 3,
       "eng": "handcream",
       "kor": "핸드크림",
       "isDone": true
     },
     {
-      "id": 118,
+      "id": "118",
       "day": 7,
       "eng": "cat",
       "kor": "고양이",
       "isDone": false
     },
     {
-      "id": 119,
+      "id": "119",
       "day": 7,
       "eng": "cat",
       "kor": "고양이",
       "isDone": false
     },
     {
-      "id": 120,
+      "id": "120",
       "day": 2,
       "eng": "browser",
       "kor": "브라우져",
+      "isDone": false
+    },
+    {
+      "id": "121",
+      "day": 1,
+      "eng": "init",
+      "kor": "claud.md 자동생성",
+      "isDone": false
+    },
+    {
+      "id": "122",
+      "day": 1,
+      "eng": "clear",
+      "kor": "컨텍스트 초기화 새작업 시작시",
+      "isDone": false
+    },
+    {
+      "id": "123",
+      "day": 1,
+      "eng": " compact",
+      "kor": "컨텍스트 압축",
+      "isDone": true
+    },
+    {
+      "id": "124",
+      "day": 1,
+      "eng": "context",
+      "kor": "토큰사용량 확인",
+      "isDone": true
+    },
+    {
+      "id": "125",
+      "day": 1,
+      "eng": "models",
+      "kor": "모델전환 Opus / Sonnet / Haiku",
+      "isDone": true
+    },
+    {
+      "id": "126",
+      "day": 1,
+      "eng": "resume",
+      "kor": "이전세션 복구(clear 된내용)",
+      "isDone": true
+    },
+    {
+      "id": "127",
+      "day": 1,
+      "eng": "mcp",
+      "kor": "MCP 관리",
+      "isDone": false
+    },
+    {
+      "id": "128",
+      "day": 1,
+      "eng": "export",
+      "kor": "채팅 내보내기",
+      "isDone": true
+    },
+    {
+      "id": "129",
+      "day": 1,
+      "eng": "escape",
+      "kor": "즉시중단",
       "isDone": false
     }
   ]

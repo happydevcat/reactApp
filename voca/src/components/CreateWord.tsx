@@ -37,7 +37,7 @@ export default function CreateWord(){
                   return Math.max(max, Number(w.id));
               }, 0);
 
-              const newId = maxId + 1;
+              const newId = `${maxId + 1}`;
               console.log("=====> {%n}",newId);
 
             fetch(`http://localhost:3001/words/`,{
